@@ -36,7 +36,7 @@ namespace p528_gui.Windows
 
         private void Btn_Accept_Click(object sender, RoutedEventArgs e)
         {
-            if (!Tools.ValidateH2(tb_h1.Text, Units, out double h1))
+            if (!Tools.ValidateH1(tb_h1.Text, Units, out double h1))
                 Tools.ValidationError(tb_h1);
             else
             {
